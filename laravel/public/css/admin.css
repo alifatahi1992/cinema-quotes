@@ -1,0 +1,260 @@
+body{
+  background-image: url('admin.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  font-family: "Georgia",Times,serif;
+  font-size: 16px;
+  line-height: 20px;
+
+}
+/*Main Section*/
+.main{
+  width: 80%;
+  margin:48px auto;
+}
+.all-users{
+      width: 100%;
+      padding-top: 20px;
+      margin-top: 100px;
+      border-radius: 5px;
+      text-align: center;
+}
+.name{
+        color: white;
+        list-style: none;
+        font-size: 20px;
+        text-shadow: 2px 2px 2px black;
+}
+.email{
+  font-size: 17px;
+  color: #00b2ff;
+  text-shadow: 2px 2px 2px black;
+}
+.all-users a{
+  color:#53fa00;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px black;
+}
+.all-users a:hover{
+  color:#297a00;
+  text-shadow: 2px 2px 2px black;
+}
+.edit-quote{
+  text-align: center;
+}
+.quotes{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  text-shadow: 4px 2px 4px black;
+}
+.quote{
+  position: relative;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 2px #ccc;
+  border-radius: 10px;
+  width: calc(35% - 48px);
+  margin: 32px;
+  padding: 16px;
+  vertical-align: top;
+  background-color: rgba(0, 0, 0, 0.59);
+}
+.quote.first-in-line{
+  margin-left: 0;
+
+}
+.quote.last-in-line{
+  margin-right: 0;
+}
+
+.title{
+  font-size: 25px;
+  color: #00b2ff;
+}
+.quote-text{
+  text-shadow: 1px 1px 2px blue;
+
+}
+.quote .info{
+  margin-top: 8px;
+  font-size: 12px;
+  font-family:"Roboto",sans-serif;
+  color: #75d6ff;
+
+}
+.quote .info a{
+  color: #ffd92e;
+
+}
+.quote .info a:hover,
+.quote .info a:active{
+  color: red;
+
+}
+
+.quote .delete{
+  position: absolute;
+  top: 2px;
+  right: 8px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+.quote .delete a{
+  color: red;
+  text-decoration: none;
+
+}
+
+.quote .delete a:hover,
+.quote .delete a:active{
+  color: green;
+}
+
+
+.input-group{
+  margin: 16px 0;
+}
+.input-group label{
+  display: block;
+  margin-left: 410px;
+  font-weight: bold;
+  color: white;
+  font-size:20px;
+  color:#75d6ff;
+  text-shadow:2px 2px 2px black;
+  padding-bottom: 5px;
+}
+
+.input-group input{
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 4px 8px;
+  text-align: center;
+}
+.input-group #name,
+.input-group #password{
+  width: 200px;
+  margin-left: 400px;
+}
+
+
+.btn{
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  background-color: #75d6ff;
+  font-size: inherit;
+  font-family: "Roboto", sans-serif;
+  padding: 8px;
+  cursor: pointer;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-weight: bold;
+  margin-left: 480px;
+}
+.btn:hover,
+.btn:active{
+  background-color:  #ffd92e;
+
+}
+
+.info-box{
+  text-align: center;
+  margin: auto;
+  padding: 16px;
+  border-radius: 3px;
+  width: 450px;
+
+}
+
+.info-box.fail{
+  border: 1px solid #ff6b6a;
+  background-color: #ffc2ba;
+  color: #ff6b6a;
+}
+
+.info-box.success{
+  border: 1px solid #46cc71;
+  background-color: #bdffb6;
+  color: #46cc71;
+}
+
+.filter-bar{
+  width: 100%;
+  padding: 16px;
+  background-color: rgba(255, 195, 0, 0.87);
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+
+}
+
+.filter-bar a{
+  text-decoration: none;
+  color: rgba(204, 0, 0, 0.95);
+  font-weight: bold;
+}
+.filter-bar a:hover{
+   color: green;
+}
+
+.pagination{
+  font-size: 40px;
+  font-weight: bold;
+}
+.pagination a{
+  color: #ffd92e;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px black;
+}
+.pagination a:hover,
+.pagination a:active{
+  color: #75d6ff;
+
+}
+
+
+.main-nav{
+  border-bottom: 1px solid lightgrey;
+  box-shadow: 0 2px 2px lightgrey;
+  text-align: center;
+  font-size: 28px;
+  background-color: rgba(0, 0, 0, 0.59);
+}
+
+.main-nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.main-nav ul li{
+  display: inline-block;
+  padding: 32px 16px;
+  transition: background-color 0.2s;
+
+}
+
+.main-nav li:hover{
+  background-color: white;
+}
+
+.main-nav a{
+  color: white;
+  transition: all 0.2;
+      text-decoration: none;
+}
+
+.main-nav li:hover a,
+.main-nav a:hover,
+.main-nav a:active{
+    color: #75d6ff;
+    text-shadow: 2px 2px 4px black;
+}
