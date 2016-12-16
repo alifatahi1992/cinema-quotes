@@ -1,4 +1,4 @@
-# cinema-quotes
+# Cinema-Quotes
 This is cinema quotes project which created by laravel 5.3
 
 * It has Admin Panel For Checking User Info and Latest Quotes And remove wrong Quotes
